@@ -343,7 +343,6 @@ class WordpieceTokenizer(object):
       if mask_num:
         if(is_number(token)):
           output_tokens.append('[NUM]')
-          print(token)
           continue
           
       is_bad = False
