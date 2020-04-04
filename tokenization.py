@@ -313,7 +313,7 @@ class WordpieceTokenizer(object):
     self.unk_token = unk_token
     self.max_input_chars_per_word = max_input_chars_per_word
 
-  def tokenize(self, text, mask_num = True):
+  def tokenize(self, text, mask_num = False):
     """Tokenizes a piece of text into its word pieces.
 
     This uses a greedy longest-match-first algorithm to perform tokenization

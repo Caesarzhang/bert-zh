@@ -97,7 +97,7 @@
 [unused96]
 [unused97]
 [unused98]
-[NUM]
+[unused99]
 [UNK]
 [CLS]
 [SEP]
